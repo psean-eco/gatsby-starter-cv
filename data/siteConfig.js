@@ -1,79 +1,64 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: "Hi! I'm Prasanth",
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
+  authorName: 'Prasanth Pillai',
+  githubUsername: 'psean-eco',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: ` Web Developer, passionate about smart home tech.<br />
+    I currently work as a backend developer on the API team at ecobee and mainly work with <strong>GraphQL, NodeJS.</strong>`,
   skills: [
     {
-      name: 'HTML',
-      level: 70
-    },
-    {
-      name: 'CSS',
-      level: 60
-    },
-    {
-      name: 'Javascript',
-      level: 50
-    },
-    {
       name: 'NodeJs',
-      level: 40
+      level: 60,
     },
     {
-      name: 'React',
-      level: 60
+      name: 'GraphQL',
+      level: 90,
     },
     {
-      name: 'Git',
-      level: 70
-    }
+      name: 'Python',
+      level: 60,
+    },
   ],
   jobs: [
     {
-      company: "Lendico",
+      company: 'Tyco Security Products',
       begin: {
         month: 'apr',
-        year: '2018'
+        year: '2016',
       },
       duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
+      occupation: 'Test Developer',
+      description: 'responsible for testing the applications',
+    },
+    {
+      company: 'ecobee',
       begin: {
         month: 'dec',
-        year: '2016'
+        year: '2017',
       },
       duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
+      occupation: 'Test Developer',
+      description: 'Responsible for QA for web mobile etc',
+    },
+    {
+      company: 'ecobee',
       begin: {
         month: 'set',
-        year: '2012'
+        year: '2012',
       },
       duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
+      occupation: 'Web Devloper',
+      description:
+        'Working on building out our internal GraphQl API in conjunction with all the product squads',
     },
     /* ... */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    linkedin: 'https://ca.linkedin.com/in/prasanth-pillai-91b7b050',
+    github: 'https://github.com/psean-eco',
+    email: 'prasanthpillai.student@gmail.com',
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
@@ -85,8 +70,8 @@ module.exports = {
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Francisco Santos',
+      label: 'Prasanth Pillai',
       url: '/',
-    }
-  ]
+    },
+  ],
 }

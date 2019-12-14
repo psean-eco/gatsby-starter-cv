@@ -11,6 +11,10 @@ const HeroContainer = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  ${p =>
+    `background-image: url(${p.heroImg || withPrefix(siteConfig.siteCover)});
+   bachground-color:grey   
+  `}
 `
 
 const TitleContainer = styled.div`
@@ -23,9 +27,10 @@ const TitleContainer = styled.div`
 const HeroTitle = styled.h1`
   font-weight: 700;
   font-size: 3rem;
-  margin: 10px 60px;
-  color: #fff;
+  margin: 20px 60px;
   text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6);
+  color: navajowhite;
+  padding-bottom: 100px;
 `
 
 class Hero extends React.Component {
@@ -43,9 +48,7 @@ class Hero extends React.Component {
 }
 
 export default styled(Hero)`
-  
-  ${p => `background-image: url(${p.heroImg || withPrefix(siteConfig.siteCover)});`}
-  height: 70vh;
+  height: 80vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
